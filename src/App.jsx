@@ -1,9 +1,8 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Highlight from "./components/Highlight";
-
-
+import Model from "./components/Model";
 
 const App = () => {
   return (
@@ -11,6 +10,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <Highlight/>
+      <Model/>
     </main>
   );
 };
